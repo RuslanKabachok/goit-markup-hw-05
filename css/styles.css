@@ -535,13 +535,8 @@ img {
 
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
-
-/*.link-container {
-  justify-content: center;
-  align-items: center;
-  padding-top: 72px;
-}*/
 
 .nav-link {
   font-size: 14px;
