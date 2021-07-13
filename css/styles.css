@@ -337,10 +337,14 @@ img {
 
 .link-list {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 16px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.link-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .link-icon:hover,
@@ -403,8 +407,6 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--grey-color);
-
-  padding-bottom: 30px;
 }
 
 /*CLIENTS-SECTION*/
