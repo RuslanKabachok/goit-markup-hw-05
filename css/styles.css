@@ -54,8 +54,8 @@ img {
   position: absolute;
   width: 48px;
   height: 4px;
-  left: 453px;
-  top: 76px;
+  left: 0px;
+  top: 45px;
 
   background: var(--accent-color);
   border-radius: 2px;
@@ -66,8 +66,8 @@ img {
   position: absolute;
   width: 78px;
   height: 4px;
-  left: 551px;
-  top: 76px;
+  left: 0px;
+  top: 45px;
 
   background: var(--accent-color);
   border-radius: 2px;
@@ -145,6 +145,10 @@ img {
 
 .menu-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.menu-item {
+  position: relative;
 }
 
 .contact-link {
